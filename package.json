@@ -1,0 +1,20 @@
+{
+  "name": "clean-arc-ts",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/main.ts --watch"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "@types/node": "^20.14.10",
+    "express": "^4.19.2",
+    "prisma": "^5.16.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
